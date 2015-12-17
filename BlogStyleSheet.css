@@ -1,0 +1,44 @@
+body {
+	margin: auto;
+    width: 80%;
+    padding-top: 10px;
+	background-image: url(background-img.jpg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	display: block;
+	background-attachment: fixed;
+	background-size: cover;
+}
+div.heading {
+    margin: 30px;
+    background-color: #ffffff;
+	border: 1px solid black;
+    opacity: 0.85;
+    filter: alpha(opacity=60);
+	text-align: center;
+	font-family: Arial;
+}
+p.a {
+	text-align: right;
+	padding-right: 10px;
+}
+div.links {
+	margin: 30px;
+    background-color: #ffffff;
+	border: 1px solid black;
+    opacity: 0.85;
+    filter: alpha(opacity=60);
+	text-align: center;
+	font-family: Arial;
+}
+div.blog {
+    margin: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+    background-color: #ffffff;
+	border: 1px solid black;
+    opacity: 0.85;
+    filter: alpha(opacity=60);
+	font-family: Arial;
+}
