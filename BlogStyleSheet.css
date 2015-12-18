@@ -5,44 +5,46 @@ body {
 	font-size: 13px;
 	background: url(background-img.jpg);
 	background-attachment: fixed;
-	background-size: cover;
-	background-position: center ;
+	background-size: 100% 100%;
+	background-position: center;
 }
 * {
 	margin: 3 auto 3 auto;
 }
 div.heading {
 	display: block; 
-	height:auto;
+	height:300px;
 	width: 1000px;
 	position: relative;
 	padding-left: 10px;
 	padding-right: 10px;
 	overflow: hidden; 
     margin: 20px auto;
+	background-image: url(header.png);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
     background-color: #D2B48C;
 	border: 10px inset #824D0A;
-	border-radius: 25px;
-    opacity: 0.85;
-    filter: alpha(opacity=60);
+	border-radius: 15px;
+
 	text-align: center;
+	vertical-align: center;
 	font-family: "Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 }
 p.a {
-	font-size: small;
-	font-style: italic;
-	text-align: right;
+	display: block;
+	font-size: 20px;
 }
 div.links {
 	display: block;
-	height: 700px;
+	height: 600px;
 	width: 21%;
 	float: left;
 	padding-left: 10px;
 	padding-right: 10px;
     background-color: #D2B48C;
 	border: 10px inset #824D0A;
-	border-radius: 25px;
+	border-radius: 15px;
     opacity: 0.85;
     filter: alpha(opacity=60);
 	font-family: "Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
@@ -51,26 +53,36 @@ div.links {
 div.blog {
 	display: block;
 	width: 70%;
-	height: 700px;
+	height: 600px;
 	float: right;
 	padding-left: 10px;
 	padding-right: 10px;
     background-color: #D2B48C;
 	border: 10px inset #824D0A;
-	border-radius: 25px;
+	border-radius: 15px;
     opacity: 0.85;
     filter: alpha(opacity=60);
 	font-family: "Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 	overflow-x: hidden;
-	overflow-y: scroll;	
+	overflow-y: hidden scroll;	
 }
 table th, td {
 	width: 100%;
 	border: 3px solid #824D0A;
-	background-color: orange;
+	background-color: #ff9900;
 	padding: 5px;
 	table-layout: fixed;
 }
-h2.left {
+h1 {
 	text-align: left;
+	text-shadow: 1px 1px;
+}
+a:link {
+    color: Orange;
+	text-decoration: none;
+	border-bottom: 1px dashed;
+}
+a:hover {
+    color: Black;
+    background-color: #ff9900;
 }
