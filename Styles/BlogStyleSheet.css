@@ -3,7 +3,7 @@ body {
 	width: 1039px;
 	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 	font-size: 13px;
-	background: url(background-img.jpg);
+	background: url(pictures/background-img.jpg);
 	background-attachment: fixed;
 	background-size: 100% 100%;
 	background-position: center;
@@ -20,7 +20,7 @@ div.heading {
 	padding-right: 10px;
 	overflow: hidden; 
     margin: 20px auto;
-	background-image: url(header.png);
+	background-image: url(pictures/header.png);
 	background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #D2B48C;
@@ -78,7 +78,7 @@ h1 {
 	text-shadow: 1px 1px;
 }
 a:link {
-    color: Orange;
+    color: blue;
 	text-decoration: none;
 	border-bottom: 1px dashed;
 }
