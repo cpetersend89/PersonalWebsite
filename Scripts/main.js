@@ -1,3 +1,4 @@
+var myVariable = "Bob";
 
 document.getElementById("demo").onclick = function() {myFunction()};
 
