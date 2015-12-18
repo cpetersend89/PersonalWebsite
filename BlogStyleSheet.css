@@ -1,42 +1,76 @@
 body {
 	margin: auto;
-    width: 80%;
-    padding-top: 10px;
-	background-image: url(background-img.jpg);
-	background-position: bottom;
-	background-repeat: no-repeat;
-	display: block;
+	width: 1039px;
+	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	background: url(background-img.jpg);
 	background-attachment: fixed;
 	background-size: cover;
+	background-position: center ;
+}
+* {
+	margin: 3 auto 3 auto;
 }
 div.heading {
-    margin: 30px;
-    background-color: #ffffff;
-	border: 1px solid black;
+	display: block; 
+	height:auto;
+	width: 1000px;
+	position: relative;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden; 
+    margin: 20px auto;
+    background-color: #D2B48C;
+	border: 10px inset #824D0A;
+	border-radius: 25px;
     opacity: 0.85;
     filter: alpha(opacity=60);
 	text-align: center;
-	font-family: Arial;
-	Color: Purple;
+	font-family: "Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 }
 p.a {
+	font-size: small;
+	font-style: italic;
 	text-align: right;
-	padding-right: 10px;
 }
-div.blog {
-    margin: 30px;
+div.links {
+	display: block;
+	height: 700px;
+	width: 21%;
+	float: left;
 	padding-left: 10px;
 	padding-right: 10px;
-	padding-bottom: 10px;
-    background-color: #ffffff;
-	border: 1px solid black;
+    background-color: #D2B48C;
+	border: 10px inset #824D0A;
+	border-radius: 25px;
     opacity: 0.85;
     filter: alpha(opacity=60);
-	font-family: Arial;
+	font-family: "Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+}
+div.blog {
+	display: block;
+	width: 70%;
+	height: 700px;
+	float: right;
+	padding-left: 10px;
+	padding-right: 10px;
+    background-color: #D2B48C;
+	border: 10px inset #824D0A;
+	border-radius: 25px;
+    opacity: 0.85;
+    filter: alpha(opacity=60);
+	font-family: "Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+	overflow-x: hidden;
+	overflow-y: scroll;	
 }
 table th, td {
 	width: 100%;
-	border: 3px solid purple;
+	border: 3px solid #824D0A;
+	background-color: orange;
 	padding: 5px;
 	table-layout: fixed;
+}
+h2.left {
+	text-align: left;
 }
